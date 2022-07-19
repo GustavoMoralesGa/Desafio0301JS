@@ -19,10 +19,7 @@
                 <h4>Precio: <span id="price">
                         400000 </span></h4>
                 <div >
-                    <button class="btn btn-primary" onclick="
-                    totalPrice.innerHTML = Number(quantity.value) * Number(price.innerHTML);
-                    
-                    ">PAGA COCHINO</button>
+                    <button class="btn btn-primary" onclick="calculate">PAGA COCHINO</button>
                 </div>
             </div>
         </div>
@@ -31,7 +28,7 @@
     <div class="content">
         <h3 >total: $ <span id="total">0</span> </h3>
         <h3>Cantidad: <span id="totalQuantity">0</span></h3>
-        <h3 id="totalColor">Color : <div class="ballColor"></div> </h3>
+        <h3>Color : <div id="ballColor"></div> </h3>
     </div>      
     
     <script src="/assets/js/index.js" ></script>

@@ -1,6 +1,6 @@
 // STEP 1
 
-cantidad = document.querySelector('#quantity');
+quantity = document.querySelector('#quantity');
 inputcolor = document.querySelector('#inputColor');
 price = document.querySelector('#price');
 
@@ -8,7 +8,17 @@ price = document.querySelector('#price');
 
 totalPrice = document.querySelector('#total');
 totalQuantity = document.querySelector('#totalQuantity');
-totalColor = document.querySelector('#totalColor')
+changeColor = document.querySelector('#ballColor')
 
 totalPrice.innerHTML = Number(quantity.value) * Number(quantity.innerHTML);
 totalQuantity.innerHTML = quantity.value; 
+
+//STEP 3
+
+changeColor.style.backgroundColor = inputColor.value;
+
+const calculate = () => {
+    totalPrice.innerHTML = Number(quantity.value) * Number(price.innerHTML);
+    totalQuantity.innerHTML = quantity.value;
+    changeColor.style.backgroundColor = inputColor.value;
+};
