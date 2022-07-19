@@ -16,9 +16,3 @@ totalQuantity.innerHTML = quantity.value;
 //STEP 3
 
 changeColor.style.backgroundColor = inputColor.value;
-
-const calculate = () => {
-    totalPrice.innerHTML = Number(quantity.value) * Number(price.innerHTML);
-    totalQuantity.innerHTML = quantity.value;
-    changeColor.style.backgroundColor = inputColor.value;
-};

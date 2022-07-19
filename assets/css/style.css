@@ -1,7 +1,26 @@
+.card {
+   background-color: rgb(97, 124, 57); 
+   color: white;
+   text-align: center;
+}
+.card img {
+    width: 200px;
+    align-self: center;
+    margin-top: 1em;
+}
+
+.flex-container {
+    display: flex;
+}
+.content {
+    margin-top: 3em;
+    margin-left: 2em;    
+}
+
 #ballColor {
     height: 30px;
     width: 30px;
     background-color: black;
-    border-radius: 50%;  
-
+    border-radius: 50%; 
+    border: solid 1px; 
 }
